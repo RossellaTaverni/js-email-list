@@ -11,7 +11,7 @@ for(let i=0; i<10; i++){
     axios.get(endpoint).then((resp) => {
         // Con Axios faccio una richiesta HTTP GET verso l’API.
         // Quando il server risponde, entro dentro la funzione .then().
-        const li = `<li>${resp.data.response}</li>`
+        const li = `<li class="list-group-item">${resp.data.response}</li>`
         listEmails.innerHTML += li
     })
 }

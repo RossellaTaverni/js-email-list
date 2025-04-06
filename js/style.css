@@ -1,0 +1,26 @@
+main{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.email-box {
+    background-color: #fff; /* Colore della lista */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 1rem;
+}
